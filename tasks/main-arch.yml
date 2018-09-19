@@ -1,0 +1,7 @@
+---
+- name: Install fd
+  become: yes
+  pacman:
+    name: fd
+    state: present
+    update_cache: yes
